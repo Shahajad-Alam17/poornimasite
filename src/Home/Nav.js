@@ -38,7 +38,7 @@ function Nav() {
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-[#0000] rounded-lg md:hidden hover:bg-white focus:outline-none focus:ring-2 focus:ring-black dark:text-gray-400 dark:hover:bg-[#002366] dark:focus:ring-[#002366]"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-[#0000] rounded-lg md:hidden text-black bg-black hover:bg-black focus:outline-none focus:ring-2 focus:ring-black "
             aria-controls="navbar-default"
             aria-expanded={isOpen}
             onClick={toggleMenu}
@@ -53,7 +53,7 @@ function Nav() {
                 viewBox="0 0 14 14"
               >
                 <path
-                  stroke="currentColor"
+                  stroke="black"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
@@ -69,7 +69,7 @@ function Nav() {
                 viewBox="0 0 17 14"
               >
                 <path
-                  stroke="currentColor"
+                  stroke="black"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
@@ -88,7 +88,7 @@ function Nav() {
               <li>
                 <a
                   href="/"
-                  className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#002366] md:p-0 dark:text-black md:dark:hover:text-[#002366] dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
+                  className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#002366] md:p-0 text-black"
                   onClick={() => setIsOpen(false)}
                 >
                   Home
@@ -97,57 +97,13 @@ function Nav() {
               <li>
                 <a
                   href="/about"
-                  className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#002366] md:p-0 dark:text-black md:dark:hover:text-[#002366] dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
+                  className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#002366] md:p-0 text-black"
                   onClick={() => setIsOpen(false)}
                 >
                   About
                 </a>
               </li>
-              <li>
-                <a
-                  href="/services"
-                  className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#002366] md:p-0 dark:text-black md:dark:hover:text-[#002366] dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Services
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/career"
-                  className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#002366] md:p-0 dark:text-black md:dark:hover:text-[#002366] dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Career
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/portfolio"
-                  className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#002366] md:p-0 dark:text-black md:dark:hover:text-[#002366] dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/news"
-                  className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#002366] md:p-0 dark:text-black md:dark:hover:text-[#002366] dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
-                  onClick={() => setIsOpen(false)}
-                >
-                  News
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/contact"
-                  className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#002366] md:p-0 dark:text-black md:dark:hover:text-[#002366] dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Contact Us
-                </a>
-              </li>
+             
             </ul>
           </div>
         </div>
